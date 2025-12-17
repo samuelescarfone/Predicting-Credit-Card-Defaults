@@ -6,7 +6,7 @@ This project focuses on developing a robust classification model for predicting 
 
 The final solution employs a **Cost-Sensitive XGBoost** approach combined with **F2-Score threshold optimization** to maximize the detection of high-cost default cases.
 
-### Methodology: Overcoming Imbalance
+### Overcoming Imbalance
 
 The modeling strategy shifted the focus from overall accuracy to **Recall**  for the minority class.
 
