@@ -20,7 +20,7 @@ The modeling strategy shifted the focus from overall accuracy to **Recall**  for
 
 The comparison below demonstrates the successful shift in modeling objective, showing a dramatic increase in the model's safety (Recall) with minimal loss to its inherent predictive power (AUC).
 
-| **Model** | **AUC (Overall Power)** | **Default Recall (Safety)** | **Precision (False Alarms)** | **Decision Threshold** | 
+| **Model** | **AUC (Overall Power)** | **Default Recall** | **Precision** | **Decision Threshold** | 
 | :--- | :--- | :--- | :--- | :--- |
 | **XGBoost (Baseline)** | $0.78$ | $0.62$ | $0.48$ | $0.50$ (Default) | 
 | **XGBoost (Final/Robust)** | $0.78$ | $0.87$ | $0.31$ | $0.32$ **(F2-Optimal)** | 
